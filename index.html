@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="mindY">
+        <span class="msg"></span>
+        <span class="know">我知道了！</span>
+    </div>
+    <div class="container">
+        <h2>Jack's Todo</h2>
+        <form class="add-task">             <!-- form表单 -->
+            <input autofocus="autofocus" autocomplete="off" name="content" type="text" placeholder="e.g.12月12日双十二全民狂欢">
+            <button class="taskSub" type="submit">submit</button>
+        </form>
+        <div class="task-list">             <!-- 任务列表 -->
+            <!-- <div class="task-item">
+                <span><input type="checkbox"></span>
+                <span class="task-content">item content 1</span>
+                <span>delete</span>
+                <span>detail</span>
+            </div> -->
+        </div>
+        <div class="task-detail-mask"></div><!--罩雾层-->
+        <div class="task-detail">
+            <!-- <form>
+                <div class="content">           &lt;!&ndash;任务标题start&ndash;&gt;
+                </div>
+                <div class="desc">              &lt;!&ndash;任务描述start&ndash;&gt;
+                    <textarea></textarea>
+                </div>
+                <div class="remind">            &lt;!&ndash; 任务提醒开始 &ndash;&gt;
+                    <p> 提醒时间</p>
+                    <input type="date">
+                    <button class="remindSub" type="submit">submit</button>
+                </div>
+            </form> -->
+        </div>
+    </div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/store/store.min.js"></script>
+<script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
